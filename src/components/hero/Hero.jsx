@@ -8,12 +8,11 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroTitleName: "Jansen Cadorna",
+  heroDesignation: "Student Developer",
+  heroDescriptions: `I'm an aspiring software engineer focused on developing 
+web applications & user-friendly experiences, I am passionate about building 
+top-notch software that improves the lives of those around me.`,
   heroBtn: "more about me",
 };
 
