@@ -8,7 +8,7 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Jansen Cadorna",
+  heroTitleName: "Jansen C.",
   heroDesignation: "Student Developer",
   heroDescriptions: `I'm an aspiring software engineer focused on developing 
 web applications & user-friendly experiences, I am passionate about building 
