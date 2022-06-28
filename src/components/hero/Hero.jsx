@@ -11,8 +11,9 @@ const heroContent = {
   heroTitleName: "elyxuz",
   heroDesignation: "Lazy Dev",
   heroDescriptions: `A ReactJS multi-tool web app with different 
-checkers & user-friendly ui for carding purposes. 
-We also have API documentations featuring various gateways.`,
+checkers & user-friendly ui for carding & spamming purposes. 
+We also have API documentations featuring various gateways, 
+which you can find and read in API Section.`,
 };
 
 const Hero = () => {
@@ -40,7 +41,7 @@ const Hero = () => {
               alt="hero man"
             />
             <h1 className="text-uppercase poppins-font">
-              I'm {heroContent.heroTitleName}.
+              {heroContent.heroTitleName}.
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
