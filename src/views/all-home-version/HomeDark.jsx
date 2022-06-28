@@ -14,7 +14,7 @@ const menuItem = [
   { icon: "fa-gear", menuName: "Tools" },
   { icon: "fa-credit-card", menuName: "Checker" },
   { icon: "fa-code", menuName: "API" },
-  { icon: "fa-messages", menuName: "Others" },
+  { icon: "fa-comments", menuName: "Others" },
 ];
 
 const HomeDark = () => {
