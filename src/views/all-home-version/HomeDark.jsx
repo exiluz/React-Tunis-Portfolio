@@ -8,6 +8,7 @@ import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
+import Maintenance from "../../components/Maintenance/maintenance";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -46,7 +47,8 @@ const HomeDark = () => {
               data-aos-duration="1200"
             >
               <div className="color-block d-none d-lg-block"></div>
-              <Hero />
+              {/* <Hero /> */}
+              <Maintenance />
             </div>
           </TabPanel>
           {/* Hero Content Ends */}
@@ -61,7 +63,8 @@ const HomeDark = () => {
                 <span className="title-bg">TOOLS</span>
               </div>
               {/* End title */}
-              <Index />
+              /*<Index />*/
+             <Maintenance />
             </div>
           </TabPanel>
           {/* About Content Ends */}
@@ -79,7 +82,8 @@ const HomeDark = () => {
               <span className="title-bg">works</span>
             </div>
             {/* End title */}
-            <Portfolio />
+            {/* <Portfolio /> */}
+            <Maintenance />
           </TabPanel>
           {/* Portfolio Content Ends */}
 
@@ -132,27 +136,7 @@ const HomeDark = () => {
 
           {/* Blog Content Starts */}
           <TabPanel className="blog">
-            <div
-              className="title-section text-left text-sm-center "
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <h1>
-                my <span>blog</span>
-              </h1>
-              <span className="title-bg">posts</span>
-            </div>
-            <div
-              className="container"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              {/*  Articles Starts  */}
-              <div className="row pb-50">
-                <Blog />
-              </div>
-              {/* Articles Ends */}
-            </div>
+            <Maintenance />
           </TabPanel>
           {/* Blog Content Ends */}
         </div>
