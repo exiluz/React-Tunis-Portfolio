@@ -56,9 +56,9 @@ const HomeDark = () => {
             <div data-aos="fade-up" data-aos-duration="1200">
               <div className="title-section text-left text-sm-center">
                 <h1>
-                  OTHER <span>TOOLS</span>
+                   <span>TOOLS</span>
                 </h1>
-                <span className="title-bg">Resume</span>
+                <span className="title-bg"></span>
               </div>
               {/* End title */}
               <Index />
