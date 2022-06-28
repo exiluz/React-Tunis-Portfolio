@@ -21,11 +21,12 @@ const index = () => {
                   CREDIT CARD GEN
                 </h3>
               </div>
+             </div>
+            </div>
               {/* End .col */}
 
           {/* Achievements Ends */}
-        </div>
-        {/* End .row */}
+        </div> {/* End .row */}
       </div>
     </section>
   );
