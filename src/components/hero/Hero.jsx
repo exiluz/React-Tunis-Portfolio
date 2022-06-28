@@ -12,7 +12,7 @@ const heroContent = {
   heroDesignation: "Lazy Dev",
   heroDescriptions: `A ReactJS multi-tool web app with different 
 checkers & user-friendly ui for carding purposes. 
-We also have API documentations featuring various gateways.",
+We also have API documentations featuring various gateways.`,
 };
 
 const Hero = () => {
