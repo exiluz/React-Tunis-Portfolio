@@ -8,12 +8,11 @@ import Index from "../../components/about/index";
 const heroContent = {
   heroImage: heroImg,
   heroMobileImage: heroImgMobile,
-  heroTitleName: "Jansen C",
-  heroDesignation: "Student Developer",
-  heroDescriptions: `I'm an aspiring software engineer focused on developing 
-web applications & user-friendly experiences, I am passionate about building 
-top-notch software that improves the lives of those around me.`,
-  heroBtn: "more about me",
+  heroTitleName: "elyxuz",
+  heroDesignation: "Lazy Dev",
+  heroDescriptions: `A ReactJS multi-tool web app with different 
+checkers & user-friendly ui for carding purposes. 
+We also have API documentations featuring various gateways.",
 };
 
 const Hero = () => {
