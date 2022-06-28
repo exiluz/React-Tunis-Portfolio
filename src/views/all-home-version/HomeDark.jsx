@@ -58,7 +58,7 @@ const HomeDark = () => {
                 <h1>
                    <span>TOOLS</span>
                 </h1>
-                <span className="title-bg"></span>
+                <span className="title-bg">TOOLS</span>
               </div>
               {/* End title */}
               <Index />
