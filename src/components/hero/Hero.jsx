@@ -14,6 +14,7 @@ const heroContent = {
 checkers & user-friendly ui for carding & spamming purposes. 
 We also have API documentations featuring various gateways, 
 which you can find and read in API Section.`,
+  heroBtn: "Go To Checker",
 };
 
 const Hero = () => {
